@@ -1,0 +1,7 @@
+project: self_encryption
+target: encrypt_decrypt
+duration: 90
+
+cmds:
+    - cmd: /encrypt_decrypt
+
