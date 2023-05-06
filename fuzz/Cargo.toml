@@ -29,3 +29,9 @@ name = "encrypt_decrypt"
 path = "fuzz_targets/encrypt_decrypt.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "bytes_from"
+path = "fuzz_targets/bytes_from.rs"
+test = false
+doc = false

@@ -21,3 +21,5 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 COPY --from=builder /self_encryption/fuzz/target/x86_64-unknown-linux-gnu/release/encrypt /
 
 COPY --from=builder /self_encryption/fuzz/target/x86_64-unknown-linux-gnu/release/encrypt_decrypt /
+
+COPY --from=builder /self_encryption/fuzz/target/x86_64-unknown-linux-gnu/release/bytes_from /
