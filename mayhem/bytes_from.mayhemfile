@@ -1,0 +1,7 @@
+project: self_encryption
+target: bytes_from
+duration: 90
+
+cmds:
+    - cmd: /bytes_from
+
